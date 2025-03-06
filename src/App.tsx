@@ -32,7 +32,7 @@ function App() {
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [activeFieldId, setActiveFieldId] = useState<string | null>(null);
 
-  const { mappings, addOrUpdateMapping, deleteMapping, getFormMappings } =
+  const { addOrUpdateMapping, deleteMapping, getFormMappings } =
     usePrefillMapping([]);
 
   const handleNodeSelect = (nodeId: string) => {

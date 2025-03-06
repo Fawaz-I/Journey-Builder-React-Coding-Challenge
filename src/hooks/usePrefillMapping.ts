@@ -50,7 +50,6 @@ export const usePrefillMapping = (initialMappings: PrefillMapping[] = []) => {
   };
 
   return {
-    mappings,
     addOrUpdateMapping,
     deleteMapping,
     getMapping,
