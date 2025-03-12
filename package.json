@@ -2,6 +2,7 @@
   "name": "4fc05d",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fawaz-i.github.io/Journey-Builder-React-Coding-Challenge",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,12 +13,14 @@
     "@types/react-dom": "^18.2.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "reactflow": "^11.10.4",
     "typescript": "^4.9.5",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
