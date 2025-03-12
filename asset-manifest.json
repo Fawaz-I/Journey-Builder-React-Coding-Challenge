@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Journey-Builder-React-Coding-Challenge/static/css/main.bc7cf486.css",
+    "main.js": "/Journey-Builder-React-Coding-Challenge/static/js/main.55badf64.js",
+    "static/js/453.3720dfbc.chunk.js": "/Journey-Builder-React-Coding-Challenge/static/js/453.3720dfbc.chunk.js",
+    "index.html": "/Journey-Builder-React-Coding-Challenge/index.html",
+    "main.bc7cf486.css.map": "/Journey-Builder-React-Coding-Challenge/static/css/main.bc7cf486.css.map",
+    "main.55badf64.js.map": "/Journey-Builder-React-Coding-Challenge/static/js/main.55badf64.js.map",
+    "453.3720dfbc.chunk.js.map": "/Journey-Builder-React-Coding-Challenge/static/js/453.3720dfbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc7cf486.css",
+    "static/js/main.55badf64.js"
+  ]
+}
